@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roshan C. Pawar & Co</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 60px;
+        }
+        .profile-img {
+            max-width: 200px;
+            border-radius: 10px;
+        }
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 24px;
+            z-index: 1000;
+        }
+        .whatsapp-float:hover {
+            text-decoration: none;
+            color: white;
+            background-color: #128C7E;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Roshan C. Pawar & Co</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pay">Pay Fees</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="py-5 text-center bg-light">
+        <div class="container">
+            <h1 class="display-5">Welcome to Roshan C. Pawar & Co</h1>
+            <p class="lead">Providing Trusted Chartered Accountancy Services</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="Photo_11zon.jpg" alt="Roshan Pawar" class="img-fluid profile-img">
+                </div>
+                <div class="col-md-8">
+                    <p>CA Roshan C. Pawar is a practicing Chartered Accountant with expertise in taxation, audit, and financial consulting. With a client-centric approach and dedication to professional ethics, the firm aims to deliver timely and effective solutions for all compliance needs.</p>
+                    <a href="visiting_card.pdf" class="btn btn-outline-primary mt-2" download>Download Visiting Card</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2>Services Offered</h2>
+            <ul>
+                <li>Income Tax Filing & Representation</li>
+                <li>GST Registration & Compliance</li>
+                <li>Audit & Assurance</li>
+                <li>Income Tax Appeals</li>
+                <li>Business & Company Registrations</li>
+                <li>Consulting & Advisory Services</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2>Contact</h2>
+            <p><strong>Office Address:</strong> 10th, Next to IIT Point, 2nd Flr, Sanskrutik Sankul, Jhasi Rani Square, Sita Burdi, Nagpur - 440012</p>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <div class="mt-4">
+                <iframe src="https://www.google.com/maps?q=Sanskrutik+Sankul,+Jhansi+Rani+Square,+Nagpur&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pay Fees Section -->
+    <section id="pay" class="py-5 bg-light text-center">
+        <div class="container">
+            <h2>Pay Professional Fees</h2>
+            <p>Click the button below to pay via Google Pay UPI</p>
+            <a href="upi://pay?pa=pawarroshan33@okhdfcbank&pn=Roshan%20C%20Pawar&cu=INR" class="btn btn-success">Pay Now</a>
+        </div>
+    </section>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/919503644414" class="whatsapp-float" target="_blank">
+        <img src="https://img.icons8.com/ios-filled/30/ffffff/whatsapp.png" alt="WhatsApp"/>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
